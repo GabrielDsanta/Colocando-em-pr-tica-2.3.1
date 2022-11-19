@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <form action="api.flit.com.br/submeterDados" method="POST">
+            <label for="NameInput">Nome Da Loja</label>
+            <input id="NameInput" placeholder="Nome Da Loja" type="text">
+            
+            <label for="Address">Endereço</label>
+            <input id="Address" placeholder="Endereço Da Loja" type="text">
+            
+            <label>Dias De Funcionamento</label>
+            <h1>Segunda</h1>
+            <input id="DayWeek" type="radio">
+            
+            <h1>Terça</h1>
+            <input id="DayWeek" type="radio">
+             
+            <h1>Quarta</h1>
+            <input id="DayWeek" type="radio">
+             
+            <h1>Quinta</h1>
+            <input id="DayWeek" type="radio">   
+             
+            <h1>Sexta</h1>
+            <input id="DayWeek" type="radio">
+              
+            <h1>Sábado</h1>
+            <input id="DayWeek" type="radio">   
+            
+            <h1>Domingo</h1>
+            <input id="DayWeek" type="radio">
+          
+            <label for="">Horário De Abertura</label>
+            <input type="time">
+            
+            <label for="">Horário De Fechamento</label>
+            <input type="time">
+               
+            <button type="submit">Enviar</button>
+            <button id="ChangeDisplay">Flex Direction Column</button>
+            <button id="ChangeDisplayToGrid">Display Grid</button>
+        </form>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
