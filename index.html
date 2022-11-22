@@ -1,54 +1,101 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    <title>Mercado DoDev</title>
 </head>
 <body>
+    <header>
+        <input type="text">
+
+        <nav>
+            <lu>
+                <ol>Categoria</ol>
+                <ol>Ofertas Do Dia</ol>
+                <ol>Histórico</ol>
+                <ol>Moda</ol>
+            </lu>
+        </nav>
+    </header>
+
+    <section>
+
+        <div class="FirstOffer">
+            <h1>Pagamento rápido e seguro</h1>
+            <h2>Com cartão</h2>
+        </div>
+
+        <div class="Offer">
+            <h1>Até 10 parcelas sem juros</h1>
+            <h2>Ver mais</h2>
+        </div>
+
+        <div class="Offer">
+            <h1>Parcelamento sem cartão</h1>
+            <h2>Conheça o mercado crédito</h2>
+        </div>
+
+        <div class="Offer"v>
+            <h1>Via PIX</h1>
+            <h2>Ver mais</h2>
+        </div>
+    </section>
+
     <main>
-        <form action="api.flit.com.br/submeterDados" method="POST">
-            <label for="NameInput">Nome Da Loja</label>
-            <input id="NameInput" placeholder="Nome Da Loja" type="text">
-            
-            <label for="Address">Endereço</label>
-            <input id="Address" placeholder="Endereço Da Loja" type="text">
-            
-            <label>Dias De Funcionamento</label>
-            <h1>Segunda</h1>
-            <input id="DayWeek" type="radio">
-            
-            <h1>Terça</h1>
-            <input id="DayWeek" type="radio">
-             
-            <h1>Quarta</h1>
-            <input id="DayWeek" type="radio">
-             
-            <h1>Quinta</h1>
-            <input id="DayWeek" type="radio">   
-             
-            <h1>Sexta</h1>
-            <input id="DayWeek" type="radio">
-              
-            <h1>Sábado</h1>
-            <input id="DayWeek" type="radio">   
-            
-            <h1>Domingo</h1>
-            <input id="DayWeek" type="radio">
-          
-            <label for="">Horário De Abertura</label>
-            <input type="time">
-            
-            <label for="">Horário De Fechamento</label>
-            <input type="time">
-               
-            <button type="submit">Enviar</button>
-            <button id="ChangeDisplay">Flex Direction Column</button>
-            <button id="ChangeDisplayToGrid">Display Grid</button>
-        </form>
+        <select>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="5">5</option>
+        </select>
+
+        <section class="PhoneSection">
+            <div class="PhoneItemDefault">
+                <img src="https://media.istockphoto.com/photos/frameless-smartphone-with-white-screen-isolated-on-white-background-picture-id1014068816?k=20&m=1014068816&s=170667a&w=0&h=hcSiADb75qVIfTNQMHoQIWZx4J02eASuZoHB9KeVpW4=" 
+                alt="Foto Produto Celular"
+                width="254"
+                height="380">
+                <h2 class="HiddenPrice">R$2.800</h2>
+                <h1>R$2.099</h1>
+                <p>Samsung Galaxy AO3</p>
+            </div>
+
+            <div class="PhoneItemDefault">
+                <img src="https://media.istockphoto.com/photos/frameless-smartphone-with-white-screen-isolated-on-white-background-picture-id1014068816?k=20&m=1014068816&s=170667a&w=0&h=hcSiADb75qVIfTNQMHoQIWZx4J02eASuZoHB9KeVpW4=" 
+                alt="Foto Produto Celular"
+                width="254"
+                height="380">
+                <h2 class="HiddenPrice">R$2.800</h2>
+                <h1>R$2.099</h1>
+                <p>Samsung Galaxy AO3</p>
+            </div>
+        </section>
+
+        <section class="PhoneSection">
+            <div class="PhoneItemDefault">
+                <img src="https://media.istockphoto.com/photos/frameless-smartphone-with-white-screen-isolated-on-white-background-picture-id1014068816?k=20&m=1014068816&s=170667a&w=0&h=hcSiADb75qVIfTNQMHoQIWZx4J02eASuZoHB9KeVpW4=" 
+                alt="Foto Produto Celular"
+                width="254"
+                height="380">
+                <h2 class="HiddenPrice">R$2.800</h2>
+                <h1>R$2.099</h1>
+                <p>Samsung Galaxy AO3</p>
+            </div>
+
+            <div class="PhoneItemDefault">
+                <img src="https://media.istockphoto.com/photos/frameless-smartphone-with-white-screen-isolated-on-white-background-picture-id1014068816?k=20&m=1014068816&s=170667a&w=0&h=hcSiADb75qVIfTNQMHoQIWZx4J02eASuZoHB9KeVpW4=" 
+                alt="Foto Produto Celular"
+                width="254"
+                height="380">
+                <h2 class="HiddenPrice">R$2.800</h2>
+                <h1>R$2.099</h1>
+                <p>Samsung Galaxy AO3</p>
+            </div>
+        </section>
     </main>
+
     <script src="./script.js"></script>
 </body>
 </html>

@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #ffdb15;
+    text-align: center;
+}
+
+input{
+    margin: 1rem auto;
+}
+
+nav{
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+lu{
+    gap: 2rem;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    margin-left: 2rem;
+}
+
+a:hover{
+    transition-duration: .3s;
+    padding: .5rem;
+    background-color: #917d0e;
+}
+
+body{
+    background-color: #ebebeb;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    text-align: left;
+}
+
+h1{
+    font-size: 1.7rem;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+select{
+    margin-top: 3rem;
+}
+
+.FirstOffer{
+    padding: 1.7rem;
+    background-color: #FFF;
+    border-right: solid 2px black;
+    border-radius: 1rem 0 0 1rem;
+    width: 21vw;
+    height: 8rem;
+}
+
+.Offer{
+    padding: 1.7rem;
+    width: 21vw;
+    background-color: #FFF;
+    height: 8rem;
+}
+
+.LastOffer{
+    width: 21vw;
+    padding: 1.7rem;
+    background-color: #FFF;
+    border-radius: 0 1rem 1rem 0;
+    height: 8rem;
+}
+
+.PhoneSection{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.PhoneItemDefault{
+    height: 25.75rem;
+    text-align: left;
+    margin-right: 5rem;
+    background-color: #FFF;
+    overflow: hidden;
+}
+
+.PhoneItem{
+    height: 25.75rem;
+    text-align: left;
+    margin-right: 5rem;
+    background-color: #FFF;
+    overflow: hidden;
+}
+
+.PhoneItemDefault:hover{
+    transition-duration: .3s;
+    height: 30rem;
+    transition-timing-function: linear;
+}
+
+.PhoneItemDefault:hover .HiddenPrice{
+    font-size: 1rem;
+}
+
+.PhoneItemDefault img {
+    border-bottom: solid 2px #ebebeb;
+}
+
+.PhoneItemDefault p {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+
+.PhoneItemDefault h1{
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+
+.HiddenPrice{
+    font-size: 0px;
+    text-decoration: line-through;
+    margin-left: 1rem;
+}
+
+.Hide{
+    display: none;
+}
